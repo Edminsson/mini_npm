@@ -1,6 +1,6 @@
 {
   "name": "axelsminipaket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trying out my own npm package.",
   "main": "dist/axelsminipaket.js",
   "files": ["dist"],
@@ -20,5 +20,8 @@
     "grunt-contrib-jshint": "~1.0.0",
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-concat": "~1.0.1"
+  },
+  "scripts": {
+    "prepublish": "grunt build"
   }
 }
