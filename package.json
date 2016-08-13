@@ -1,9 +1,12 @@
 {
   "name": "axelsminipaket",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Trying out my own npm package.",
   "main": "dist/axelsminipaket.js",
-  "files": ["dist","extra"],
+  "files": [
+    "dist",
+    "extra"
+  ],
   "keywords": [
     "axel"
   ],
