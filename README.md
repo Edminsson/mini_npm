@@ -16,7 +16,7 @@ main js file that has the same name as the name property in the package.json fil
 - I added a main property to package.json as "dist/axelsPakettest.js". This file is what's loaded when the 
 npm package is loaded when the module is required.
 
-##Publishing the package
+##Publishing the package axelsminipaket
 - Create or login as an npm user. You can either register a user or login as an existing user using the
 command npm adduser. You may have problems login in if your npm version is too old. It happened to me.
 - Publishing your package is as easy as calling the command: npm publish.
