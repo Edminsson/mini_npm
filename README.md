@@ -21,3 +21,6 @@ npm package is loaded when the module is required.
 command npm adduser. You may have problems login in if your npm version is too old. It happened to me.
 - Publishing your package is as easy as calling the command: npm publish.
 - I used this site https://docs.npmjs.com/getting-started/publishing-npm-packages
+- It looks as if I use dependencies instead of devDependencies in package.json the dependencies
+ get installed along with the package at installation.
+- I'm also using the files-properties in package.json to only install the dist-folder when the package gets installed.
