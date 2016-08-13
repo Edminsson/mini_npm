@@ -5,6 +5,8 @@ I also want to make git tags and use the script property "prepublish" in package
 I want to be able to only publish distribution files and not source files.
 
 I want to understand what's being copied to the "npm modules" folder when someone calls "npm install <my package>".
+The package that I finally created publishes a dist folder. This folder is not in the repository but gets created
+when the package is published using the prepublish property in package.json.
 
 ##Creating an npm package
 - Follow these instructions to create an npm package https://docs.npmjs.com/getting-started/creating-node-modules
