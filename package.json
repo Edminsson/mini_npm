@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Trying out my own npm package.",
   "main": "dist/axelsminipaket.js",
-  "files": ["dist"],
+  "files": ["dist","extra"],
   "keywords": [
     "axel"
   ],

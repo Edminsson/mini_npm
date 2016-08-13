@@ -9,7 +9,8 @@ I want to understand what's being copied to the "npm modules" folder when someon
 ##Creating an npm package
 - Follow these instructions to create an npm package https://docs.npmjs.com/getting-started/creating-node-modules
 - To use grunt, grunt-contrib-jshint and grunt-contrib-concat I first installed the packages using:
-npm install &lt;package&gt; --save
+npm install &lt;package&gt; --
+- I created a .ignore file so that node_modules and bower_components do not get copied to github.
 - Configured Gruntfile.js following the instructions in http://gruntjs.com/sample-gruntfile
 - I started with some simple tasks. Running jshint and concatenating files to the dist folder creating a 
 main js file that has the same name as the name property in the package.json file.
@@ -28,6 +29,11 @@ command npm adduser. You may have problems login in if your npm version is too o
 "npm version minor", "npm version major" depending of what kind of update you are doing. Using the "npm version" command
 in a git repository you automatically make a tag. You will have to push the tag manually to github.
 - After making a new version you have to call "npm publish" again. 
+
+## Installing the package
+- When I use npm install axelsminipaket only the dist folder, package.json and the readme file gets copied.
+- If I use npm install edminsson/mini_npm only package.json and the readme file gets copied. That could be
+because the dist folder is not in the repository.
 
 ##Commands
 - npm adduser or npm login
