@@ -1,6 +1,6 @@
 {
-  "name": "axelsminipaket",
-  "version": "1.0.4",
+  "name": "axelsnpmpaket",
+  "version": "1.0.5",
   "description": "Trying out my own npm package.",
   "main": "dist/axelsminipaket.js",
   "files": [
