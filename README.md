@@ -34,8 +34,8 @@ in a git repository you automatically make a tag. You will have to push the tag 
 
 ## Installing the package
 - When I use "npm install axelsminipaket" only the dist folder, package.json and the readme file gets copied.
-- If I use "npm install edminsson/mini_npm" only package.json and the readme file gets copied. That could be
-because the dist folder is not in the repository. I tried to add an extra folder to both the files property
+- If I use "npm install edminsson/mini_npm" only package.json and the readme file gets copied. That's because of
+the files property and the fact that the the dist folder is not in the repository. I tried to add an extra folder to both the files property
 in package.json and to the repository and this new folder gets copied when installing the package directly from
 github without using the published package.
 - The main file in the package also contains a printMsg in the exportsobjekt so it can be used when the package
