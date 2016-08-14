@@ -19,7 +19,7 @@ main js file that has the same name as the name property in the package.json fil
 - I added a main property to package.json as "dist/axelsPakettest.js". This file is what's loaded when the 
 npm package is loaded when the module is required.
 
-##Publishing the package axelsminipaket
+##Publishing the package axelsnpmpaket
 - Create or login as an npm user. You can either register a user or login as an existing user using the
 command npm adduser. You may have problems login in if your npm version is too old. It happened to me.
 - Publishing your package is as easy as calling the command: npm publish.
@@ -33,13 +33,13 @@ in a git repository you automatically make a tag. You will have to push the tag 
 - After making a new version you have to call "npm publish" again. 
 
 ## Installing the package
-- When I use "npm install axelsminipaket" only the dist folder, package.json and the readme file gets copied.
+- When I use "npm install axelsnpmpaket" only the dist folder, package.json and the readme file gets copied.
 - If I use "npm install edminsson/mini_npm" only package.json and the readme file gets copied. That's because of
 the files property and the fact that the the dist folder is not in the repository. I tried to add an extra folder to both the files property
 in package.json and to the repository and this new folder gets copied when installing the package directly from
 github without using the published package.
 - The main file in the package also contains a printMsg in the exportsobjekt so it can be used when the package
-is required. I.e. demo = require('axelsminipaket'); demo.printMsg();  
+is required. I.e. demo = require('axelsnpmpaket'); demo.printMsg();  
 
 ##Commands
 - npm adduser or npm login
