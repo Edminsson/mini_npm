@@ -38,6 +38,8 @@ in a git repository you automatically make a tag. You will have to push the tag 
 because the dist folder is not in the repository. I tried to add an extra folder to both the files property
 in package.json and to the repository and this new folder gets copied when installing the package directly from
 github without using the published package.
+- The main file in the package also contains a printMsg in the exportsobjekt so it can be used when the package
+is required. I.e. demo = require('axelsminipaket'); demo.printMsg();  
 
 ##Commands
 - npm adduser or npm login
